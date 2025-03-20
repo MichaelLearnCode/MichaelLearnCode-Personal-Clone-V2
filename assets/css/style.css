@@ -151,6 +151,18 @@
     .profile .profile-img {
         height: 40vw;
     }
+
+    .menu-banners .banner-info .banner-sales{
+        font-size: 1.25rem;
+    }
+
+    .menu-banners .banner-info .banner-title{
+        font-size: 1.5rem;
+    }
+
+    .menu-banners .banner-info a{
+        font-size: 1.25rem;
+    }
 }
 /* xxl */
 @media(min-width: 1400px){
