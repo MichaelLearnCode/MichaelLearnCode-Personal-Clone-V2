@@ -390,13 +390,6 @@ body{
 
 
 /* mega dropdown */
-.mega-menu-col{
-    border-right: 1px solid #ddd;
-}
-
-.mega-menu-col:last-child{
-    border-right: 0;
-}
 
 
 
@@ -2507,6 +2500,13 @@ h3{
 
     .navbar .nav-link-lists > .nav-link-item.dropdown-mega-menu > .dropdown-menu{
         padding: 15px 0;
+    }
+    .mega-menu-col{
+        border-right: 1px solid #ddd;
+    }
+    
+    .mega-menu-col:last-child{
+        border-right: 0;
     }
     
     /* text */
