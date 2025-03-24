@@ -9,6 +9,21 @@
     <title>Personal</title>
 </head>
 <body>
+    <div class="modal" id = "exampleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title fs-5"></div>
+                <button data-dismiss = 'modal' class="btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button data-dismiss = 'modal' class="btn text-white btn-gray">Close</button>
+                <button class="btn btn-primary">Do something</button>
+            </div>
+        </div>
+    </div>
     <div class="py-3">
         <div class="container px-5">
           <div class="navbar">
@@ -146,8 +161,8 @@
                             <div class="span gradient-text">Get online and grow fast</div>
                         </h1>
                         <div class="cta flex justify-xxl-start flex-wrap flex-sm-row flex-col justify-center mb-3">
-                            <a href="" class="btn btn-primary fw-bolder mr-sm-4 py-3 px-5 fs-6 mb-3 mb-sm-0">Resume</a>
-                            <a href="" class="btn btn-outline-dark fw-bolder py-3 px-5 fs-6">Projects</a>
+                            <a href="" data-toggle = "modal" data-target = "exampleModal" data-title = "Resume" data-body = "Resume" class="btn btn-primary fw-bolder mr-sm-4 py-3 px-5 fs-6 mb-3 mb-sm-0">Resume</a>
+                            <a href=""  data-toggle = "modal" data-target = "exampleModal" data-title = "Projects" data-body = "Projects" class="btn btn-outline-dark fw-bolder py-3 px-5 fs-6">Projects</a>
                         </div>
                     </div>
                 </div>
